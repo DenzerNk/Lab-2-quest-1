@@ -1,8 +1,7 @@
-import math
-from mod import amoeba
+from mod1 import amoeba
 
 def expression(alpha):
-    z = (math.sqrt(2) / 2) * math.sin(alpha / 2) - alpha / 2
+    z = ((2) ** 0.5 / 2) * ((alpha / 2) - (alpha / 2)**3/6) - alpha / 2
     return z
 
 alpha = float(input("Введіть значення α (в радіанах): "))
